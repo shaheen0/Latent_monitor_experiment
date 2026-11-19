@@ -1,0 +1,46 @@
+# Local environments, caches, and credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+
+# Folders excluded by the project's standing instructions
+dataset/
+figures/
+testing_sample/
+/docs/
+/figures/
+/tests/
+
+# Local reporting scripts
+/src/report_probe_results.py
+/compare_results.py
+
+# Local analysis, audit, and prompt dry-run outputs
+/outputs/paper_comparison*/
+/outputs/probe_audit*/
+/outputs/prompt_dry_run*/
+/outputs/sarcasm_context_analysis*/
+
+
+# Downloaded model weights and checkpoints; saved probes/activations remain tracked
+*.safetensors
+*.ckpt
+pytorch_model*.bin
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+*~

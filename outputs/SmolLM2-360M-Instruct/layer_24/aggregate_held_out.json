@@ -1,0 +1,172 @@
+[
+  {
+    "target": "portuguese",
+    "mean_dh_norm": 4.328583717346191,
+    "mean_cos": 0.04573309049010277,
+    "delta_z_vs_bare": 3.634929656982422,
+    "delta_z_elevate_vs_bare": 3.8205108642578125,
+    "delta_z_contrast": 0.00424387538805604,
+    "tprs": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 1.0,
+      "8": 1.0,
+      "16": 1.0,
+      "32": 1.0
+    },
+    "baseline_tpr": 1.0
+  },
+  {
+    "target": "archaeology",
+    "mean_dh_norm": 5.2255072593688965,
+    "mean_cos": 0.03348745033144951,
+    "delta_z_vs_bare": -0.9625024795532227,
+    "delta_z_elevate_vs_bare": -0.7305974960327148,
+    "delta_z_contrast": 0.014579924754798412,
+    "tprs": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 0.98,
+      "8": 0.98,
+      "16": 0.96,
+      "32": 0.88
+    },
+    "baseline_tpr": 1.0
+  },
+  {
+    "target": "sarcastic",
+    "mean_dh_norm": 7.823843955993652,
+    "mean_cos": 0.006129730958491564,
+    "delta_z_vs_bare": -9.555938720703125,
+    "delta_z_elevate_vs_bare": -9.495290756225586,
+    "delta_z_contrast": 0.0037370002828538418,
+    "tprs": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 1.0,
+      "8": 0.98,
+      "16": 0.9,
+      "32": 0.74
+    },
+    "baseline_tpr": 1.0
+  },
+  {
+    "target": "sycophancy",
+    "mean_dh_norm": 9.01452350616455,
+    "mean_cos": 0.05287224426865578,
+    "delta_z_vs_bare": -0.9930076599121094,
+    "delta_z_elevate_vs_bare": -0.5128326416015625,
+    "delta_z_contrast": 0.024374043568968773,
+    "tprs": {
+      "1": 0.96,
+      "2": 0.96,
+      "4": 0.96,
+      "8": 0.92,
+      "16": 0.86,
+      "32": 0.76
+    },
+    "baseline_tpr": 0.98
+  },
+  {
+    "target": "evasiveness_noncommittal",
+    "mean_dh_norm": 9.021181106567383,
+    "mean_cos": 0.05240439996123314,
+    "delta_z_vs_bare": -0.18813133239746094,
+    "delta_z_elevate_vs_bare": 0.32465171813964844,
+    "delta_z_contrast": 0.029567372053861618,
+    "tprs": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 1.0,
+      "8": 0.98,
+      "16": 0.9,
+      "32": 0.7
+    },
+    "baseline_tpr": 1.0
+  },
+  {
+    "target": "imperatives_commands",
+    "mean_dh_norm": 8.002260208129883,
+    "mean_cos": 0.04464402049779892,
+    "delta_z_vs_bare": -2.4053497314453125,
+    "delta_z_elevate_vs_bare": -2.014963150024414,
+    "delta_z_contrast": 0.019415726885199547,
+    "tprs": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 1.0,
+      "8": 1.0,
+      "16": 0.98,
+      "32": 0.88
+    },
+    "baseline_tpr": 1.0
+  },
+  {
+    "target": "urgency_panic",
+    "mean_dh_norm": 8.599813461303711,
+    "mean_cos": 0.053645867854356766,
+    "delta_z_vs_bare": 2.506694793701172,
+    "delta_z_elevate_vs_bare": 2.981231689453125,
+    "delta_z_contrast": 0.02882586047053337,
+    "tprs": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 1.0,
+      "8": 1.0,
+      "16": 0.82,
+      "32": 0.56
+    },
+    "baseline_tpr": 1.0
+  },
+  {
+    "target": "deception",
+    "mean_dh_norm": 7.171983242034912,
+    "mean_cos": 0.03253347799181938,
+    "delta_z_vs_bare": 2.676727294921875,
+    "delta_z_elevate_vs_bare": 2.917858123779297,
+    "delta_z_contrast": 0.012064814567565918,
+    "tprs": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 1.0,
+      "8": 1.0,
+      "16": 0.92,
+      "32": 0.66
+    },
+    "baseline_tpr": 1.0
+  },
+  {
+    "target": "physics",
+    "mean_dh_norm": 5.058814525604248,
+    "mean_cos": 0.042898472398519516,
+    "delta_z_vs_bare": 4.790964126586914,
+    "delta_z_elevate_vs_bare": 4.9958953857421875,
+    "delta_z_contrast": 0.020213371142745018,
+    "tprs": {
+      "1": 0.94,
+      "2": 0.94,
+      "4": 0.94,
+      "8": 0.92,
+      "16": 0.8,
+      "32": 0.64
+    },
+    "baseline_tpr": 0.92
+  },
+  {
+    "target": "astronomy",
+    "mean_dh_norm": 5.083652973175049,
+    "mean_cos": 0.04393923655152321,
+    "delta_z_vs_bare": 0.17575454711914062,
+    "delta_z_elevate_vs_bare": 0.4201850891113281,
+    "delta_z_contrast": 0.015240365639328957,
+    "tprs": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 1.0,
+      "8": 1.0,
+      "16": 0.98,
+      "32": 0.88
+    },
+    "baseline_tpr": 1.0
+  }
+]

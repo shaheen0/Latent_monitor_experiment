@@ -1,0 +1,39 @@
+[project]
+name = "research-llm-safety"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hafsah Akram", email = "hafsaakram18@gmail.com" }
+]
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "accelerate>=1.15.0",
+    "numpy>=2.4.6",
+    "safetensors>=0.8.0",
+    "scikit-learn>=1.9.1",
+    "torch==2.4.1",
+    "transformers<4.48.0",
+]
+
+[project.scripts]
+research-llm-safety = "research_llm_safety:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+torch = { index = "pytorch" }
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.4",
+    "ruff>=0.17.1",
+]
